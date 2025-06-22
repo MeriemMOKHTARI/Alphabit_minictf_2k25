@@ -1,0 +1,34 @@
+name: ColorPNG
+author: M3riLynx
+author_link: https://github.com/MeriemMOKHTARI
+
+category: forensics
+difficulty: medium
+
+description: |
+  > I’ve always loved the color red—how about you?  
+  > I bet you’re great with PNGs.  
+  > Can you uncover the secret hidden inside?  
+
+  **Author**: M3ri0us
+
+flags:
+  - Alphabit{r3d_P1x3l5_4ll_4r0und}
+
+type: dynamic
+value: 500
+extra:
+    initial: 500
+    decay: 35
+    minimum: 50
+
+tags:
+  - steganography
+  - png
+
+
+
+state: hidden
+
+version: "0.1"
+

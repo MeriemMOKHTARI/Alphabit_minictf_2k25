@@ -1,0 +1,27 @@
+name: Key2QR
+author: M3riLynx
+author_link: https://github.com/MeriemMOKHTARI
+category: forensics
+difficulty: medium
+
+description: |
+  > A broken GIF hides a key for a locked QR code that holds the final part of the flag.
+  > Can you repair, unlock, and retrieve the flag?
+
+  **Author** : M3riLynx
+flags:
+  Alphabit{GIF_4ll_1n_QRC}
+type: dynamic
+value: 500
+extra:
+    initial: 500
+    decay: 35 
+    minimum: 50
+tags:
+  - GIF
+
+
+state: hidden
+
+version: "0.1"
+
